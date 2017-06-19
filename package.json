@@ -1,0 +1,29 @@
+{
+  "name": "nyt-web-scraper",
+  "version": "1.0.0",
+  "description": "scrapes the nyt website and saves info using mongodb",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElyseDaly/NYT-web-scraper.git"
+  },
+  "author": "ElyseDaly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElyseDaly/NYT-web-scraper/issues"
+  },
+  "homepage": "https://github.com/ElyseDaly/NYT-web-scraper#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cheerio": "^1.0.0-rc.1",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.10.7",
+    "morgan": "^1.8.2",
+    "request": "^2.81.0"
+  }
+}
